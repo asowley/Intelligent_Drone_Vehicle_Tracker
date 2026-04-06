@@ -1,0 +1,65 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Data and generated assets
+data/
+artifacts/
+uploads/
+outputs/
+tmp/
+temp/
+
+# Model files
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.trt
+*.ckpt
+*.pth
+
+# Databases / queues
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker / local overrides
+docker-compose.override.yml
