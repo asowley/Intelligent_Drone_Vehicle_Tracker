@@ -36,7 +36,8 @@ coverage/
 logs/
 
 # Data and generated assets
-data/
+data/*
+!data/README.md
 artifacts/
 uploads/
 outputs/
